@@ -6,25 +6,17 @@
 ![AZ-104](https://img.shields.io/badge/AZ--104-Hands--on-orange?style=for-the-badge)
 
 ## 🎯 Scenario
-**Contoso Corporation** is launching a new customer portal web application. They require:
+**Contoso Corporation** is launching a new customer portal. They need high availability, zero-downtime deployments, scaling, and support for both code-based and container-based workloads.
 
-- High availability and auto-scaling capabilities
-- Zero-downtime deployments (Blue-Green deployment)
-- Separate Staging and Production environments
-- Ability to run both code-based and container-based workloads
+## 🛠️ Key Services & Difference
 
-This lab demonstrates a complete, enterprise-ready web hosting solution using Azure App Service.
+| Service                  | Purpose                                      | Type |
+|-------------------------|----------------------------------------------|------|
+| **App Service Plan**    | Provides compute resources for Web Apps      | Hosting Plan |
+| **Web App**             | Hosts your web application                   | PaaS |
+| **Azure Container Instance** | Runs Docker containers directly (serverless) | Container Runtime |
 
-## 🏗️ Architecture
-
-![Architecture](./diagrams/architecture.png)
-
-## 🛠️ Technologies Used
-- Azure App Service Plan
-- Azure Web App
-- Deployment Slots
-- Manual Scale Out & Autoscale
-- Azure Container Instances
+> **Note**: App Service Plan is used for Web Apps, while Azure Container Instances is a separate serverless service for running containers.
 
 ## 📋 Lab Content
 - [Step-by-Step Guide](./Step-by-Step-Guide.md)
