@@ -5,6 +5,10 @@
 ## 🎯 Scenario
 **Contoso Corporation** is launching a new customer portal web application. They require high availability, zero-downtime deployments, separate environments, and scaling capabilities.
 
+## Important Note
+- **App Service Plan** = Compute resources for **Web Apps**
+- **Azure Container Instances (ACI)** = Separate service to run Docker containers (not related to App Service Plan)
+- 
 ## 🏗️ Architecture
 
 ![Architecture](./diagrams/architecture.png)
@@ -75,7 +79,7 @@ Use Kudu (Advanced Tools) or Visual Studio to edit `index.html` in each slot.
 3. Set Min=1, Max=5
 4. Save
 
-### STEP 11 — Create Azure Container Instance
+### STEP 11 — Create Azure Container Instance (Separate Service)
 1. Search **Container Instances** → **+ Create**
 2. Name: `container-demo`
 3. Image: `mcr.microsoft.com/oss/nginx/nginx:1.9.15-alpine (Linux)`
