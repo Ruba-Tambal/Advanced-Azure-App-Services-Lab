@@ -8,6 +8,10 @@
 ## 🎯 Scenario
 **Contoso Corporation** is launching a new customer portal. They need high availability, zero-downtime deployments, scaling, and support for both code-based and container-based workloads.
 
+## 🏗️ Architecture
+
+![Architecture](./diagrams/architecture.png)
+
 ## 🛠️ Key Services & Difference
 
 | Service                  | Purpose                                      | Type |
