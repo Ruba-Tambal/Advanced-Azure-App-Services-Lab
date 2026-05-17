@@ -18,7 +18,7 @@
 ### STEP 1 — Create Resource Group
 1. Search **Resource groups** → **+ Create**
 2. Name: `rg-appservice-advanced`
-3. Region: **west Europe**
+3. Region: **West Europe**
 4. Click **Review + create** → **Create**
 
 ### STEP 2 — Create App Service Plan
